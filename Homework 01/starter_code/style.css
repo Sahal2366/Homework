@@ -1,0 +1,21 @@
+body {
+    background: #F6F6F6;
+    color:#05080C;
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
+th {
+    background: #222222;
+color: #eeeeee;
+
+}
+td {
+    background: #eeeeee;
+}
+article img {
+    float: right;
+    margin-left: 15px;
+}

@@ -1,0 +1,160 @@
+body {
+  font-family: 'Nunito', Arial, sans-serif;
+  font-size: 12px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+/* Colors */
+/* Redish / Pink: #ff5358 */
+/* Dark red for button hover: #e00007 */
+/* Very light gray for backgrounds: #efefef */
+/* Very light gray for borders: #dbdbdb */
+/* Dark gray for footer: #0e0f0f */
+/* White for text and backgrounds: #FFFFFF */
+
+
+/* Background image links */
+/* Hero: https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/melbourne.jpg */
+/* Fitzroy: https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/fitzroy.jpg */
+/* St. Kilda: https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/st-kilda.jpg  */
+/* CBD: https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/central-business-district.jpg */
+.insetDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.insetDiv img{
+  max-width: 100px;
+  height: auto;
+  padding: 10px 30px;
+}
+.insetDiv ul{
+  display: flex;
+  gap: 10px;
+}
+.insetDiv ul li{
+  list-style: none;
+  margin-right: 10px;
+  
+  font-size: 16px;
+  
+}
+.insetDiv ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 100;
+}
+.AirbnbWinner{
+  background-image: url(melbourne.jpg);
+  min-height: 500px;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ 
+}
+.AirbnbWinner .featuredText{
+  color: aliceblue;
+  max-width: 400px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.AirbnbWinner .featuredText h1{
+  text-align: center;
+  font-size: 60px;
+
+}
+  
+.AirbnbWinner .featuredText p{
+  text-align: center;
+  font-size: 16x;
+  font-weight: 700;
+}
+.btn {
+  display: block;
+  background-color: red;
+  text-decoration: none;
+  color: aliceblue;
+  max-width: 200px;
+  font-size: 18px;
+  text-align: center;
+  padding: 15px;
+
+
+}
+.btn:hover {
+  background-color: red;
+  
+
+}
+.Love {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 40px 10px;
+  gap: 40px;
+}
+.Lovely {
+  background-color: white;
+  border: 1px solid #dbdbdb;
+  
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  align-items: center;
+}
+.Lovely h1 {
+  background-color: #efefef;
+  max-width: 100%;
+  grid-column: span 2;
+  padding: 10px;
+  font-size: 14px;
+}
+.Love {
+  background-color: #efefef;
+}
+.Lovely img {
+  margin: 10px;
+  
+}
+.FeaturedBlock .bnbText {
+  text-align: center;
+  font-size: 32px;
+  margin-top: 40px;
+  font-weight: bold;
+  font-family: 'Nunito', Arial, sans-serif;
+}
+.FeaturedBlock .bnbTextss {
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Nunito', Arial, sans-serif;
+  font-weight: bold;
+}
+.neighborhoods{
+  background-image: url(fitzroy.jpg);
+  min-height: 300px;
+  
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: space-around; 
+  align-items: center;
+  flex-direction: column;
+  color: #efefef;
+  margin-right: 800px;
+
+}
+  
+.NotAirbnb {
+  background-color: #dbdbdb;
+}
+.TextBook{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
