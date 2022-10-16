@@ -1,4 +1,278 @@
-### Colors
+/* ### Colors
 Green: #20c063 / RGBA(32,192,99,1)
 Gray: #e8e9ea  / RGBA (232,233,234,1)
 Dark Text: #3b4144 / RGBA (59,65,68,1)
+/ */
+.TruliaHead ul{
+display: flex;
+
+}
+
+.TruliaHead ul li {
+    list-style: none;
+    color: black;
+    padding:0 20px;
+    padding-bottom: 10px;
+   
+    
+}
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+.TruliaLeft {
+    
+    display: flex;
+    background-color: #32b64c;
+   width: 100%;
+    
+    
+    
+}
+
+.navLogo{
+   
+   padding: 5px 10px;
+   margin-top: 5px;
+   min-width: 80px;
+   vertical-align: middle;
+   margin-left: 10px;
+
+  
+}
+.Truth{
+    display: flex;
+    
+}  
+
+.Truth li a{
+    text-decoration: none;
+    color: whitesmoke
+}
+.Truth li{
+padding: 0 20px;
+
+}
+/*body{
+    margin: 0%;
+    width: 100%;
+    padding-left: 0%;
+}*/
+.TruliaHead{
+    display: flex;
+    background-color: #32b64c;
+    height: 45px;
+    
+}
+.navRight{
+   display: flex;
+  width: 100%;
+  justify-content: flex-end;
+   
+}
+.navTwo{
+    display: flex;
+
+}
+.navTwo li{
+    padding: 20px;
+    list-style: none;
+    font-size: 14px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.navChild{
+font-weight: bold;
+
+
+}
+.houseGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #e3e4e6;
+    gap: 15px;
+    padding: 10px;
+    
+}
+.houseInfo{
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 100%;
+}
+
+h2{
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.housePicture{
+height: 160px;
+width: 100%;
+background-size: cover;
+background-position: center;
+
+}
+.pic1{
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/house-1.jpg);
+    
+}
+.pic2{
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/house-2.jpg);
+    
+}
+.pic3{
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/house-3.jpg);
+}
+.pic4{
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/house-4.jpg);
+}
+.pic5{
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/house-5.jpg);
+}
+.pic6{
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/house-6.jpg);
+}
+.new{
+    background-color: rgba(45, 191, 102, 0.70);
+    width: 30px;
+    text-transform: uppercase;
+    border-bottom-right-radius: 5px;
+    color: #fff;
+    padding-left: 5px;
+    font-size: 12px;
+}
+.pic7{
+    background-image: url( https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/house-7.jpg);
+}
+.pic8{ background-image: url( https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/house-8.jpg);
+
+}
+.newHome{
+    text-transform: uppercase;
+    background-color: rgba(134, 144, 152, 0.45);
+    width: 110px;
+   font-size: 14px;
+   color: #fff;
+   border-top-left-radius: 5px;
+   border-bottom-right-radius: 5px;
+  padding-left: 5px;
+}
+.pic9{
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/house-09.jpg);
+}
+.pic10{
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/house-10.jpg);
+}
+.pic11{
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/house-11.jpg);
+}
+.pic12{
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/house-12.jpg
+    )
+}
+.houseList{
+    display: flex;
+    width: 100%;
+    justify-content: normal;
+    margin: 10px;
+    padding: 0px 10px 0px 0px;
+    align-items: flex-end;
+    gap: 10px;
+
+}
+.houseList li img{
+    width: 15px;
+    gap: 4px;
+    padding: 0px 5px 0px 0px;
+}
+.houseList li{
+    list-style: none;
+    
+}
+.houseInfo h2{
+   margin: 10px;
+}
+.houseInfo p{
+margin: 10px;
+font-family: 'Source Sans Pro', sans-serif;
+color: #222;
+font-size: 14px;
+}
+.greenBox{
+    background-color: #32b64c;
+    color: white;
+    width: 40px;
+    text-transform: uppercase;
+}
+
+.numbers{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.footerEnd li{
+    
+    list-style: none;
+    
+    
+}
+.footerEnd li a{
+    color: #32b64c;
+}
+.footerEnd .secondHeader{
+    text-align: center;
+    color: #787d81;
+}
+.countriesList{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+
+}
+.countriesList li a {
+    width: 0px;
+}
+.countriesList li{
+    padding: 0px 10px;
+    
+}
+.lastSection{
+    padding-left: 30px;
+}
+.lastSection a{
+    color: #3a8e52;
+}
+.lastNav{
+    
+    width: 100%;
+}
+.endGame{
+    background-color: #474E52;
+}
+.lastP{
+    
+    text-align: center;
+    
+    font-size: 10px;
+    color: #fff;
+    margin: 0px 10px;
+}
+.footerLinks{
+    
+    color:transparent;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    font-size: 15px;
+    padding: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+    
+}
+
+
+.lastNav ul li a{
+    color: #fff;
+  
+}
+
+
